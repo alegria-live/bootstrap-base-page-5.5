@@ -1,0 +1,338 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i');
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+header .container-fluid {
+	background-color: #000;
+}
+header img {
+	margin: 10px;
+	width:80% ;
+}
+header input.form-control {
+	width: 80% !important;
+}
+header form.form-inline {
+	padding: 13px;
+}
+header .row .row {
+	padding-top: 20px;
+}
+header .row > div:last-child {
+	color: #fff;
+}
+header a {
+	color: #fff;
+	font-size: 1.9rem;
+	padding-left: 20px;
+	margin-top: 10px;
+}
+header a:hover {
+	color: #ddd;
+	text-decoration: none;
+}
+header .col-sm-offset-6 {
+margin-left: 0;
+}
+
+section.menu {
+	background-color: #b40019;
+}
+section.menu .nav li a {
+	color: #aaa;
+	font-size: 1.6rem;
+	padding-right: 10px;
+} 
+section.menu .nav li a:hover {
+	color: #fff;
+}
+section.menu .nav li a:visited {
+	color: #fff;
+	border: none;
+}
+section.menu .nav .dropdown li a {
+	color:#000;
+}
+section.menu .navbar {
+	margin-bottom: 0;
+	background-color: #b40019;
+	border: none;
+}
+section.menu .panel-default {
+	box-shadow: 1px 1px 8px #b40019;
+}
+section.menu .nav .list-group li a {
+	color: black;
+}
+section.menu .big-panel {
+	width: 900px;
+	position:absolute;
+	left: 0;
+	top: 50px;
+	background-color: #fff;
+	z-index: 900;
+	display: none;
+	background:none;
+}
+
+section.menu .small-panel {
+	width: 300px;
+	position:absolute;
+	left: 0;
+	top: 50px;
+	background-color: #fff;
+	z-index: 900;
+	display: none;
+	background:none;
+}
+
+section.menu .nav li:hover .woman-items {
+	display: block;
+}
+section.menu .nav li:hover .man-items {
+	display: inline-block;
+	left: -50px;
+}
+section.menu .nav li:hover .plus-size-items {
+	display: inline-block;
+	left: -100px;
+}
+section.menu .nav li:hover .bands-items {
+	display: inline-block;
+	left: -100px;
+}
+section.menu .nav li:hover .movies-items {
+	display: inline-block;
+	left: -100px;
+}
+section.menu .nav li:hover .gaming-items {
+	display: inline-block;
+	left: -100px;
+}
+section.menu .nav li:hover .livestyle-items {
+	display: inline-block;
+	left: -100px;
+}
+section.menu .nav li:hover .accessories-items {
+	display: inline-block;
+	left: -100px;
+}
+section.menu .nav li:hover .new-items {
+	display: inline-block;
+	left: -100px;
+}
+section.carousel {
+	margin-top: 2%
+}
+section.carousel [class*="example"]{
+  min-height:300px;
+}
+section.carousel .example-1 {
+background: url(https://www.emp-shop.pl/on/demandware.static/-/Library-Sites-EMPSharedLibrary/default/dwe24880f1/images/bands/mot_rhead.jpg);
+background-size: cover;
+}
+section.carousel .example-2 {
+	background: url(https://www.emp-shop.pl/on/demandware.static/-/Library-Sites-EMPSharedLibrary/default/dwd2012a7a/images/bands/arch_enemy.jpg);
+	background-size: cover;
+}
+section.carousel .example-3 {
+	background: url(https://www.emp-shop.pl/on/demandware.static/-/Library-Sites-EMPSharedLibrary/default/dw1d376c4f/images/bands/rammstein.jpg);
+	background-size: cover;
+}
+section.carousel .example-4 {
+	background: url(https://www.emp-shop.pl/on/demandware.static/-/Library-Sites-EMPSharedLibrary/default/dwb090088c/images/bands/amon_amarth.jpg);
+	background-size: cover;
+}
+
+section.for-sale {
+	margin: 2% 0;
+}
+section.for-sale img{
+	height: 300px;
+}
+section.for-sale  div.col-sm-6:nth-of-type(1) .img {
+	background: url(https://www.emp.co.uk/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw71a77740/images/3/2/7/7/327779a-emp.jpg?sfrm=png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+section.for-sale  div.col-sm-6:nth-of-type(1) .img:hover {
+	background: url(https://www.emp-shop.pl/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw23bdac6f/images/3/2/7/7/327779b-emp.jpg?sfrm=png);
+	height: 300px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+section.for-sale  div.col-sm-6:nth-of-type(2) .img {
+	background: url(https://www.emp.co.uk/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw04d9ab04/images/3/4/3/0/343005a-emp.jpg?sfrm=png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+section.for-sale  div.col-sm-6:nth-of-type(2) .img:hover {
+	background: url(https://www.emp-shop.pl/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw109f95c8/images/3/4/3/0/343005b-emp.jpg?sfrm=png);
+	height: 300px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+section.for-sale  div.col-sm-6:nth-of-type(3) .img {
+	background: url(https://www.emp.co.uk/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dwe6c6a930/images/3/4/3/0/343003a-emp.jpg?sw=350&sh=400&sm=fit&sfrm=png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+section.for-sale  div.col-sm-6:nth-of-type(3) .img:hover {
+	background: url(https://www.emp-shop.pl/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw24cf7d51/images/3/4/3/0/343003b-emp.jpg?sfrm=png);
+	height: 300px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+section.for-sale  div.col-sm-6:nth-of-type(4) .img {
+	background: url(https://www.emp.co.uk/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw2c2cae1e/images/3/6/7/3/367380a.jpg?sfrm=png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+section.for-sale  div.col-sm-6:nth-of-type(4) .img:hover {
+	background: url(https://www.emp-shop.pl/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dwac360e5e/images/3/6/7/3/367380b.jpg?sfrm=png);
+	height: 300px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+section.community .col-md-6 {
+	background-color: #b40019;
+	color: #ccc;
+	padding: 2%;
+	border:8px solid #fff;
+	font-size: 1.8rem;
+}
+section.community .col-md-6 i.fa {
+	color:#ccc;
+	font-size: 3rem;
+	padding-right: 20px;
+}
+
+section.divider-top .col-md-12 {
+	margin-top: 5%;
+	height: 10px;
+	background-image: linear-gradient(1deg, transparent 50%, #ccc 50%);
+}
+
+section.form {
+	margin-top: 2%;
+}
+
+section.divider-bottom .col-md-12 {
+	margin-top: 3%;
+	height: 10px;
+	background-image: linear-gradient(1deg, #b40019 50%, transparent 50%);
+}
+
+footer .row {
+	padding-top: 20px;
+	height: 150px;
+	background:url(https://www.emp-shop.pl/on/demandware.static/-/Library-Sites-EMPSharedLibrary/default/dwe24880f1/images/bands/mot_rhead.jpg);
+}
+
+.modal .panel-default {
+	margin-bottom: 0;
+}
+#woman, #man {
+top:88px;
+right:8%;
+outline: none;
+}
+
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+	background-color: #b40019;
+}
+
+.btn-primary {
+	background-color: #b40019;
+}
+.btn-primary:hover {
+	background-color: #000;
+}
+
+.affix {
+	top:90px;
+	left: calc(50vw - 720px);
+}
+
+.pagin {
+	margin-top: 4%;
+}
+.pagination > .active > a {
+	background-color: #b40019;
+}
+.pagination > .active > a:hover {
+	background-color: #000;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------media-------------*/	
+
+@media (max-width: 992px) {
+	section.fixer {
+		display: none;
+	}
+	header .row .row {
+		padding-top: 0;
+	}
+	section.menu .nav li a {
+	font-size: 1.3rem;
+	padding-right:3px;
+	} 
+	section.menu .navbar-collapse {
+		padding: 0;
+	}
+	#woman, #man {
+	top:160px;
+	right:8%;
+	}
+	section.carousel [class*="example"]{
+  	min-height:220px;
+
+}
+
+@media (max-width: 768px) {
+
+	header .container-fluid {
+		padding: 0;
+	}
+	header .col-sm-6 {
+		padding-top: 10px;
+		text-align: center; 
+	}
+	header input.form-control {
+		width: 80% !important;
+		display: inline-block;
+	}
+	header a {
+		font-size: 3rem;
+		padding: 20px;
+	}
+	section.carousel [class*="example"]{
+  	min-height:120px;
+  	}
+  	section.community .col-sm-6 {
+  		text-align: center;
+  	}
+}
+
